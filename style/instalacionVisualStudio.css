@@ -1,0 +1,19 @@
+html{
+	font-family: sans-serif;
+	background-color: #D2B4DE;
+
+}
+h1 , h2 , h3 , p{
+	text-align: justify-all;
+}
+h1 , h2{
+	color: blue;
+}
+h1 {
+	
+	font-size: 45px;
+}
+img{
+	display: block;
+	margin:  auto;
+}

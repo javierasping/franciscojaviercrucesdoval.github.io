@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contacto</title>
+	<link rel="stylesheet" type="text/css" href="./style/contacto.css">
+
+		  <style type="text/css">
+    .ghbmd {
+      /* display: none!important;  */
+    }
+
+    .oscuro{ 
+      background-color: #1f1f1f; 
+      color: #f1eded; 
+    }
+
+  </style>
+
+</head>
+<body>
+	<h1 id="titulo_centrado" align="center">Contacto</h1>
+
+<button type="button" class="btn btn-dark" onclick="cambiarModo()">Oscuro / Claro</button>
+
+
+
+
+
+
+		
+		<p>Puedes contactar conmigo rellenando este formulario :</p>
+
+				<form>
+					<fieldset>
+						<legend>Completar</legend>
+							
+							<label>Nombre</label> &nbsp; <input type="text" >&nbsp; <label>Apellidos</label> &nbsp; <input type="text" >
+								
+								<p>Correo electrónico: <input type="email" name="email_control" required /> </p>
+									
+									<p>Motivo:</p><select name="select">
+									  <option value="value1">Incidencia</option>
+									  <option value="value2" selected>Mejora</option>
+									  <option value="value3">Pregunta</option>
+									</select>	
+
+										
+											<p>Descripcion :</p><textarea name="message" rows="10" cols="30"> Escribe aqui </textarea>
+
+													<p>Urgente :</p>
+
+										<input type="radio" name="fav_language" ><label >Si</label><br>
+										
+										<input type="radio" name="fav_language" ><label >No</label><br>
+											
+									<br>	<input type="submit">		<br>
+
+				</fieldset>
+					</form>
+ </footer>
+    <script src="./js/contacto.js"></script>
+
+     <script type="text/javascript"> 
+      function cambiarModo() { 
+        var cuerpoweb = document.body; 
+        cuerpoweb.classList.toggle("oscuro"); 
+      } 
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+html{
+ font-family: fantasy; 
+}
+body {
+animation: cambiarcolorfondo 30s linear infinite alternate both;
+}
+
+}
+#titulo_centrado {
+	color: red;
+	text-align: center;
+
+}
+#saludo {
+	font-family:   Brush Script MT;
+	font-size: 25px;
+}
+p{
+	font-family: verdana;
+}
+#color_enlaces_interes {
+	color: white;
+}
+#td1 {
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #8b0000
+
+}
+#td2{
+	border-right-style: dashed;
+	border-right-width: 2px;
+	border-top-style: dashed;
+	border-top-width: 2px;
+	border-color: #8b0000
+
+}
+#td3{
+	border-right-style:  dashed;
+	border-right-width: 2px;
+	border-top-style: dashed;
+	border-top-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-color: #8b0000
+
+}
+
+#td4{
+	border-right-style:  dashed;
+	border-right-width: 2px;
+
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-color: #8b0000
+}
+#td5{
+	border-right-style:  dashed;
+	border-right-width: 2px;
+	border-top-style: dashed;
+	border-top-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-color: #8b0000
+
+}
+#td6{
+	border-right-style:  dashed;
+	border-right-width: 2px;
+	border-top-style: dashed;
+	border-top-width: 2px;
+	border-bottom-style: dashed;
+	border-bottom-width: 2px;
+	border-color: #8b0000
+
+}
+@keyframes cambiarcolorfondo {
+	0% {
+		background: #99ffcc;
+	}
+	20% {
+		background: #99ff99;
+	}
+	40% {
+		background: #99ff66;
+	}
+	60% {
+		background: #99ff33;
+	}
+	80% {
+		background: #ccff33;
+	}
+	100% {
+		background: #66ffb3;
+	}
+
+
+a:hover {
+  color: black;
+  background-color: white;
+  text-decoration: underline;
+

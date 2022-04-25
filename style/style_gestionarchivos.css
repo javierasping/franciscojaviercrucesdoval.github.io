@@ -1,0 +1,21 @@
+html{
+	 background: linear-gradient(to bottom, #fafad2 25%, #ff99cc 111%);
+	font-family: Times New Roman;
+}
+#titulo{
+	color: #AF7AC5;
+}
+h1{
+	color: 	#2F4F4F;
+	font-size: 75px;
+}
+li{
+	list-style-type: lower-roman;
+	color: blue;
+	font-size: 20px;
+	
+}
+li + p {
+	color: red;
+	font-size: 18px;
+}
