@@ -1,8 +1,14 @@
+#imagen1 {
+border-radius: 10%;
+}
+
+
 html{
  font-family: fantasy; 
 }
 body {
 animation: cambiarcolorfondo 30s linear infinite alternate both;
+animation: 
 }
 
 }
@@ -99,4 +105,12 @@ a:hover {
   color: black;
   background-color: white;
   text-decoration: underline;
+}
+
+
+
+
+
+
+
 
